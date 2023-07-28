@@ -1,0 +1,45 @@
+{
+  "name": "user1",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "@vuelidate/core": "^2.0.2",
+    "@vuelidate/validators": "^2.0.2",
+    "async-mqtt": "^2.6.3",
+    "axios": "^1.4.0",
+    "buffer": "^6.0.3",
+    "ky": "^0.33.3",
+    "mitt": "^3.0.0",
+    "mqtt": "^4.3.7",
+    "paho-mqtt": "^1.1.0",
+    "primeflex": "^3.3.1",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.30.1",
+    "vue": "^3.3.4",
+    "vue-axios": "^3.5.2",
+    "vue-mqtt": "^2.0.3",
+    "vue-router": "^4.2.2",
+    "whatwg-fetch": "^3.6.2"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.5",
+    "@testing-library/vue": "^7.0.0",
+    "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/test-utils": "^2.4.0",
+    "babel-jest": "^29.5.0",
+    "chai": "^4.3.7",
+    "chai-dom": "^1.11.0",
+    "jsdom": "^22.1.0",
+    "msw": "^1.2.2",
+    "sass": "^1.63.6",
+    "sass-loader": "^13.3.2",
+    "vite": "^4.3.9",
+    "vitest": "^0.32.2"
+  }
+}
